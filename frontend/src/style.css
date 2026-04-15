@@ -1,0 +1,75 @@
+:root {
+  color-scheme: dark;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: #0e1018;
+  color: #e9eef8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: #171a24;
+  border: 1px solid #30374a;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+input,
+select,
+textarea,
+button {
+  background: #101520;
+  color: #e9eef8;
+  border: 1px solid #3f4c6b;
+  border-radius: 8px;
+  padding: 0.65rem;
+}
+
+button {
+  cursor: pointer;
+  background: #1a67ff;
+  border-color: #1a67ff;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.status {
+  white-space: pre-wrap;
+  background: #111624;
+  border-radius: 10px;
+  border: 1px solid #33405e;
+  padding: 0.75rem;
+}
+
+ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1rem;
+}
